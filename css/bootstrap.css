@@ -3193,9 +3193,9 @@ textarea.form-control-lg {
   border-color: #f8f9fa;
 }
 .btn-light:hover {
-  color: #000;
-  background-color: #f9fafb;
-  border-color: #f9fafb;
+  color: #f8f9fa;
+  background-color: #C2C2C2;
+  border-color: #C2C2C2;
 }
 .btn-check:focus + .btn-light, .btn-light:focus {
   color: #000;
@@ -4486,6 +4486,12 @@ textarea.form-control-lg {
   color: #fff;
 }
 
+
+.card:hover {
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform: scale(1.1)
+}
+
 .card {
   position: relative;
   display: flex;
@@ -4496,6 +4502,8 @@ textarea.form-control-lg {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  transition: all 1s ease;
+  cursor: pointer
 }
 .card > hr {
   margin-right: 0;
@@ -6463,7 +6471,8 @@ textarea.form-control-lg {
   color: #212529;
 }
 .link-dark:hover, .link-dark:focus {
-  color: #1a1e21;
+  color: #f8f9fa;
+  background-color: #C2C2C2;
 }
 
 .ratio {
